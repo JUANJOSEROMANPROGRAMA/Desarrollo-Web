@@ -1,3 +1,16 @@
+:root {
+
+    --blanco: #ffffff;
+    --negro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+
+
+
+
+}
+
 html {
 
     font-size: 62.5%;
@@ -6,15 +19,19 @@ html {
 body {
 
     font-size: 16px;
+    font-family: "Krub", sans-serif;
 
 }
 
-h1 {
+.titulo {
     text-align: center;
     font-size: 3.8rem;
+    color: var(--primario);
+    font-family: "Krub", sans-serif;
+    
 
 }
 
-span{
+.titulo span {
     font-size: 2rem;
 }
